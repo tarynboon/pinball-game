@@ -1,12 +1,5 @@
 /*
- * File: Pinball.java
- * -------------------
- * This file will eventually implement the game of Pinball.
- */
-
-/*
  * Taryn Boonpongmanee
- * 11/1/21
  * Pinball
  * Plays a game of pinball with 3 turns
  */
