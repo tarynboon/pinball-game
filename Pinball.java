@@ -82,7 +82,6 @@ public class Pinball extends GraphicsProgram {
 /* Method: run() */
 /** Runs the Pinball program. */
 
-	
 	public void run() {
 		setUpGame();
 		playGame();
@@ -310,14 +309,14 @@ public class Pinball extends GraphicsProgram {
 		return null;
 	}
 	
-	//win game
+	//win game, set up screen
 	public void winGame() {
 		clearBoard();
 		GLabel winText = new GLabel("You Win! Game Over.", APPLICATION_WIDTH/2 - 50, APPLICATION_HEIGHT/2);
 		add(winText);
 	}
 	
-	//lose game
+	//lose game, set up screen
 	public void loseGame() {
 		clearBoard();
 		GLabel loseText = new GLabel("You Lost! Game Over. ", APPLICATION_WIDTH/2 - 50, APPLICATION_HEIGHT/2);
